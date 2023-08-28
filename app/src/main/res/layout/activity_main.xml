@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/app_activity_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toModule1"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btn_go_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn_go_cart"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btn_go_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn_go_fragment"
+            android:textSize="35sp" />
+
+        <FrameLayout
+            android:id="@+id/app_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/app_activity_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toModule2"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/app_activity_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="plugin_test1--apk"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/app_activity_tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="plugin_test2--aar"
+            android:textSize="35sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
